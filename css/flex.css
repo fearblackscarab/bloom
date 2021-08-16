@@ -113,7 +113,7 @@ body{
 .inner-section1{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 
 }
 
@@ -156,8 +156,13 @@ button{
     width: 550px;
 }
 @media(max-width:990px){
+    
     .computer{
         width: 300px;
+    }
+
+    .computer-div{
+        margin: 0 auto;
     }
 }
 
@@ -179,12 +184,22 @@ button{
 
 .section2-inner{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 @media(max-width:729px){
     .section2-inner{
         flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .star{
+        margin: 0 auto;
+    }
+}
+
+@media(max-width:666px){
+    .chat,.cloud{
+        margin: 0 auto;
     }
 }
 
@@ -222,7 +237,7 @@ button{
 .products{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 40px;
 }
 
