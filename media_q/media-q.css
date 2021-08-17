@@ -1,0 +1,90 @@
+:root{
+    --top-color: #26292e;
+    --section1-color: #e9748e ;
+    --section2-color: #f4f4f6;
+    --section2-border: #f6e7ec;
+    --section3-color: #fff;
+    --bot-color: #26292e;
+    --top-text: #949597;
+    --p-text: #d8d8da;
+}
+
+.icon {
+    display: inline-block;
+    color: black;
+    padding: 4px;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+}
+
+.social-item1{
+    background-color: white;
+    display: inline;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+}
+  
+.icon-bubbles {
+    width: 1.125em;
+}
+
+/* general */
+*{ box-sizing: border-box;}
+
+button:hover{
+    color: var(--section1-color);
+}
+
+a{
+    text-decoration: none;
+}
+
+.clear{
+    clear: both;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.inner{
+    width: 96%;
+    margin: 0 auto;
+}
+
+/* header */
+
+.header{
+    background-color: var(--top-color);
+    color: var(--top-text);
+}
+
+.bloom-title{
+    margin: 0;
+    text-align: center;
+    font-size: calc(25px + (50 - 25) * ((100vw - 300px) / (1600 - 300)));
+}
+
+.socials1{
+    margin: 0;
+    text-align: center;
+    margin-right: 30px;
+    font-size: 30px;
+}
+
+/* end header */
+/* main */
+/* section1 */
+
+.section1{
+    background-color: var(--section1-color);
+}
+
+.welcome{
+    margin: 0;
+}

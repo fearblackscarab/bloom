@@ -111,13 +111,14 @@ body{
 .inner-section1{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-
+    justify-content: space-evenly; 
 }
 
 .section1-welcome{
     width: 400px;
+    margin: 0 auto;
     color: var(--section3-color);
+    border: 1px solid red;
 }
 
 .welcome{
@@ -153,10 +154,27 @@ button{
     margin-top: 30px;
     width: 550px;
 }
-@media(max-width:990px){
-    
+
+@media(max-width:500px){
     .computer{
-        width: 300px;
+        display: none;
+    }
+
+}
+
+@media(min-width:501px) and (max-width:990px){
+    
+    .inner-section1{
+        display: inline;
+        text-align: center;
+    }
+
+    .section1-welcome{
+        width: 70%;
+    }
+
+    .computer{
+        width: 45%;
     }
 
     .computer-div{
